@@ -28,12 +28,79 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            progressBar1 = new ProgressBar();
+            label1 = new Label();
+            pictureBox1 = new PictureBox();
+            label2 = new Label();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
+            // 
+            // progressBar1
+            // 
+            progressBar1.Location = new Point(468, 368);
+            progressBar1.Name = "progressBar1";
+            progressBar1.Size = new Size(252, 35);
+            progressBar1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.MediumVioletRed;
+            label1.Location = new Point(480, 62);
+            label1.Name = "label1";
+            label1.Size = new Size(220, 29);
+            label1.TabIndex = 1;
+            label1.Text = "CALCULADORA ";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.BAL5;
+            pictureBox1.Location = new Point(21, 62);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(330, 363);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.GhostWhite;
+            label2.Location = new Point(468, 350);
+            label2.Name = "label2";
+            label2.Size = new Size(85, 16);
+            label2.TabIndex = 3;
+            label2.Text = "QUASE LÁ...";
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Pink;
+            ClientSize = new Size(800, 450);
+            Controls.Add(label2);
+            Controls.Add(pictureBox1);
+            Controls.Add(label1);
+            Controls.Add(progressBar1);
+            ForeColor = SystemColors.ControlText;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Name = "Form1";
+            Text = "Calculadora";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private ProgressBar progressBar1;
+        private Label label1;
+        private PictureBox pictureBox1;
+        private Label label2;
     }
 }
