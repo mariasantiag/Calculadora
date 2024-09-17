@@ -28,20 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            progressBar1 = new ProgressBar();
+            pgbcarregar = new ProgressBar();
             label1 = new Label();
             pictureBox1 = new PictureBox();
             label2 = new Label();
+            tmrcarregar = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // progressBar1
+            // pgbcarregar
             // 
-            progressBar1.Location = new Point(468, 368);
-            progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(252, 35);
-            progressBar1.TabIndex = 0;
+            pgbcarregar.Location = new Point(468, 368);
+            pgbcarregar.MarqueeAnimationSpeed = 1000;
+            pgbcarregar.Name = "pgbcarregar";
+            pgbcarregar.Size = new Size(252, 35);
+            pgbcarregar.TabIndex = 0;
+            pgbcarregar.Click += pgbcarregar_Click;
             // 
             // label1
             // 
@@ -77,6 +81,11 @@
             label2.TabIndex = 3;
             label2.Text = "QUASE LÁ...";
             // 
+            // tmrcarregar
+            // 
+            tmrcarregar.Enabled = true;
+            tmrcarregar.Tick += tmrcarregar_Tick;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -86,7 +95,7 @@
             Controls.Add(label2);
             Controls.Add(pictureBox1);
             Controls.Add(label1);
-            Controls.Add(progressBar1);
+            Controls.Add(pgbcarregar);
             ForeColor = SystemColors.ControlText;
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -100,9 +109,10 @@
 
         #endregion
 
-        private ProgressBar progressBar1;
+        private ProgressBar pgbcarregar;
         private Label label1;
         private PictureBox pictureBox1;
         private Label label2;
+        private System.Windows.Forms.Timer tmrcarregar;
     }
 }
