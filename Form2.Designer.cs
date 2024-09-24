@@ -226,9 +226,10 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(-17, 370);
+            pictureBox1.Image = Properties.Resources.cd4d41720bf1354472a13d8ef7bb5029;
+            pictureBox1.Location = new Point(-33, 373);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(91, 86);
+            pictureBox1.Size = new Size(122, 83);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 17;
             pictureBox1.TabStop = false;
@@ -246,13 +247,14 @@
             // 
             // pictureBox2
             // 
-          
-            pictureBox2.Location = new Point(253, 397);
+            pictureBox2.Image = Properties.Resources.barbie_logo_png_08_600x581;
+            pictureBox2.Location = new Point(243, 391);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(57, 47);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 19;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // frmcalc
             // 
