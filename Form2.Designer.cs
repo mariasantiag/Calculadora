@@ -227,7 +227,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.boneca_barbie_png21;
+
             pictureBox1.Location = new Point(-33, 373);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(122, 83);
