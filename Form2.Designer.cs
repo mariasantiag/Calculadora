@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmcalc));
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
@@ -226,7 +227,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.cd4d41720bf1354472a13d8ef7bb5029;
+            pictureBox1.Image = Properties.Resources.boneca_barbie_png21;
             pictureBox1.Location = new Point(-33, 373);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(122, 83);
@@ -247,7 +248,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = Properties.Resources.barbie_logo_png_08_600x581;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(243, 391);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(57, 47);

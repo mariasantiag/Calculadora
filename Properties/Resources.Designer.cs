@@ -83,6 +83,16 @@ namespace Calculadora.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap boneca_barbie_png21 {
+            get {
+                object obj = ResourceManager.GetObject("boneca-barbie-png21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cd4d41720bf1354472a13d8ef7bb5029 {
             get {
                 object obj = ResourceManager.GetObject("cd4d41720bf1354472a13d8ef7bb5029", resourceCulture);
