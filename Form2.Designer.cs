@@ -246,7 +246,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = Properties.Resources.barbie_logo_png_08_600x581;
+          
             pictureBox2.Location = new Point(253, 397);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(57, 47);
