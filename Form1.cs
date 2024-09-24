@@ -12,7 +12,7 @@ namespace Calculadora
 
         }
 
-        
+
 
         private void pgbcarregar_Click(object sender, EventArgs e)
         {
@@ -21,11 +21,11 @@ namespace Calculadora
 
         private void tmrcarregar_Tick(object sender, EventArgs e)
         {
-           
+
             if (pgbcarregar.Value >= 100)
             {
                 tmrcarregar.Enabled = false;
-                frmcalc Calculadora = new frmcalc();  
+                frmcalc Calculadora = new frmcalc();
                 Calculadora.ShowDialog();
             }
 
@@ -33,6 +33,11 @@ namespace Calculadora
             {
                 pgbcarregar.Value = pgbcarregar.Value + 10;
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

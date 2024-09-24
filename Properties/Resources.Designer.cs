@@ -69,5 +69,45 @@ namespace Calculadora.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap barbie_logo_png_08_600x581 {
+            get {
+                object obj = ResourceManager.GetObject("barbie-logo-png-08-600x581", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap boneca_barbie_png21 {
+            get {
+                object obj = ResourceManager.GetObject("boneca-barbie-png21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cd4d41720bf1354472a13d8ef7bb5029 {
+            get {
+                object obj = ResourceManager.GetObject("cd4d41720bf1354472a13d8ef7bb5029", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cd4d41720bf1354472a13d8ef7bb50291 {
+            get {
+                object obj = ResourceManager.GetObject("cd4d41720bf1354472a13d8ef7bb50291", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
