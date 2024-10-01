@@ -171,5 +171,11 @@ namespace Calculadora
         {
             Application.Exit();
         }
+
+        private void centimetrosEmPolegadasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FRMcm formularioCm = new FRMcm();   
+            formularioCm.ShowDialog();
+        }
     }
 }

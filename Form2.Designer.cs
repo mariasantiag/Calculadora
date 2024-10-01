@@ -53,6 +53,7 @@
             MSsair = new ToolStripMenuItem();
             MSConversao = new ToolStripMenuItem();
             contextMenuStrip1 = new ContextMenuStrip(components);
+            centimetrosEmPolegadasToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             menuStrip1.SuspendLayout();
@@ -301,7 +302,7 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { MSsair, MSConversao });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { MSsair, MSConversao, centimetrosEmPolegadasToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(357, 28);
@@ -327,6 +328,13 @@
             contextMenuStrip1.ImageScalingSize = new Size(20, 20);
             contextMenuStrip1.Name = "contextMenuStrip1";
             contextMenuStrip1.Size = new Size(61, 4);
+            // 
+            // centimetrosEmPolegadasToolStripMenuItem
+            // 
+            centimetrosEmPolegadasToolStripMenuItem.Name = "centimetrosEmPolegadasToolStripMenuItem";
+            centimetrosEmPolegadasToolStripMenuItem.Size = new Size(200, 24);
+            centimetrosEmPolegadasToolStripMenuItem.Text = "Centimetros em Polegadas";
+            centimetrosEmPolegadasToolStripMenuItem.Click += centimetrosEmPolegadasToolStripMenuItem_Click;
             // 
             // frmcalc
             // 
@@ -394,5 +402,6 @@
         private ToolStripMenuItem MSsair;
         private ToolStripMenuItem MSConversao;
         private ContextMenuStrip contextMenuStrip1;
+        private ToolStripMenuItem centimetrosEmPolegadasToolStripMenuItem;
     }
 }
