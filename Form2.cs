@@ -148,5 +148,28 @@ namespace Calculadora
         {
             txtVisor.Clear();
         }
+
+
+
+        private void MSsair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void frmcalc_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MSConversao_Click(object sender, EventArgs e)
+        {
+            frmConverte formularioConverter = new frmConverte();
+            formularioConverter.ShowDialog();
+        }
+
+        private void frmcalc_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
